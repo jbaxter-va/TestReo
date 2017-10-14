@@ -4,7 +4,7 @@ def fib(n):
         fib.append(fib[-2]+fib[-1])
     return fib
 
-def fibsq(n)
+def fibsq(n):
     f = fib(n)
     return [n**2 for n in f]
 
