@@ -7,3 +7,7 @@ def fib(n):
 def fibsq(n)
     f = fib(n)
     return [n**2 for n in f]
+
+def fib_times_2(n):
+    f = fib(n)
+    return [n*2 for n in f]
